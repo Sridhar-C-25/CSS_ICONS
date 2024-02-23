@@ -2,84 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>social-icons</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <title>Merge Conflict Example</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
+      /* Main CSS styles */
       body {
-        display: grid;
-        place-items: center;
-        min-height: 100vh;
-        background: #333;
-      }
-
-      .social-icons span {
-        display: inline-block;
-        position: relative;
-        font-size: 2em;
-        margin: 0.32em;
-      }
-
-      .social-icons i {
-        color: white;
-        position: absolute;
-        top: 0.9em;
-        left: 0.88em;
-        transition: all 265ms ease-out;
-      }
-
-      .social-icons a::before {
-        content: "";
-        transform: scale(1);
-        width: 85px;
-        height: 85px;
-        border-radius: 50%;
-        display: block;
-        background: linear-gradient(45deg, #ff003c, #e985eb);
-        transition: all 265ms ease-out;
-      }
-
-      .social-icons a:hover::before {
-        transform: scale(0);
-        transition: all 265ms ease-out;
-      }
-
-      .social-icons a:hover i {
-        transform: scale(2.2);
-        color: #ff003c;
-        background: linear-gradient(45deg, #ff003c, #e985eb);
-        text-align: left;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transition: all 265ms ease-out;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
       }
     </style>
   </head>
-
   <body>
-    <!-- icons -->
-    <div class="social-icons">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-      </ul>
-    </div>
-
+    <h1>Hello, World!</h1>
+    <p>This is a sample HTML file with embedded CSS and JavaScript.</p>
     <script>
-      const a = 24;
+      // Main JavaScript code
+      document.addEventListener("DOMContentLoaded", function () {
+        var greeting = document.createElement("p");
+        greeting.textContent = "Welcome to our website!";
+        document.body.appendChild(greeting);
+      });
     </script>
   </body>
 </html>
